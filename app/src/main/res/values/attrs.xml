@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bg_Item" format="reference" />
+    <attr name="bg_View" format="color" />
+    <attr name="icon_Setting" format="reference"/>
+    <attr name="icon_List" format="reference"/>
+    <attr name="icon_Back" format="reference"/>
+    <attr name="icon_Change_Setting" format="reference"/>
+</resources>

@@ -4,9 +4,19 @@
 
         <item name="android:windowBackground">@color/bg_light</item>
         <item name="android:windowFullscreen">true</item>
+        <item name="bg_Item" type="drawable">@drawable/gradient_bg_main_light</item>
+        <item name="bg_View" type="color">@color/blue_gradient_dark</item>
+        <item name="icon_Setting">@drawable/settings_dark</item>
+        <item name="icon_List">@drawable/list_dark</item>
+        <item name="icon_Back">@drawable/back_dark</item>
+        <item name="icon_Change_Setting">@drawable/angle_circle_right_dark</item>
+
     </style>
 
     <item name="text_Primary" type="color">@color/text_light</item>
+
+
+
 
     <style name="TextAppearance.App.body2.Bold" parent="TextAppearance.MaterialComponents.Body2">
         <item name="android:textSize">@dimen/text_body_2</item>
@@ -47,6 +57,12 @@
     <style name="TextAppearance.App.heading4" parent="TextAppearance.MaterialComponents.Headline4">
         <item name="android:textSize">@dimen/text_heading_4</item>
         <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading4.Bold" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/text_heading_4</item>
+        <item name="fontFamily">@font/bold</item>
         <item name="android:textColor">@color/text_Primary</item>
     </style>
 
