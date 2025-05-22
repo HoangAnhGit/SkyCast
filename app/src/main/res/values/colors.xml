@@ -2,4 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    //dark
+    <color name="blue_gradient_dark">#59469D</color>
+    <color name="pink_gradient_dark">#643D67</color>
+    <color name="text_dark">#ffffff</color>
+
+
+    //night
+    <color name="orange_gradient_light">#E5BA98</color>
+    <color name="pink_gradient_light">#CA3BD6</color>
+    <color name="purple_gradient_light">#B224F0</color>
+    <color name="text_light">#331866</color>
+    <color name="bg_light">#F3E9FE</color>
+
+    //
+    <color name="bg_delete">#FF6259</color>
 </resources>

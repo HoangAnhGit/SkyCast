@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //main
+    <string name="app_name">SkyCast</string>
+    <string name="Cancel">Hủy</string>
+    <string name="Add">Thêm</string>
+    <string name="MyLocation">Vị trí của tôi</string>
+    <string name="Rain">Mưa</string>
+    <string name="WindSpeed">Tốc độ gió</string>
+    <string name="Humidity">Độ ẩm</string>
+    <string name="Sunrise">Mặt trời lặn</string>
+    <string name="Sunset">Mặt trời mọc</string>
+    <string name="Today">Hôm nay</string>
+    <string name="Now">Bây giờ</string>
+    <string name="forecast_10_days">Dự báo 10 ngày tiếp theo</string>
+    <string name="forecast_rain_alert">Rain is expected around %1$s</string>
+
+    //status weather
+    <string name="weather_clear">Trời quang</string>
+    <string name="weather_sunny">Nắng</string>
+    <string name="weather_partly_cloudy">Ít mây</string>
+    <string name="weather_cloudy">Nhiều mây</string>
+    <string name="weather_overcast">U ám</string>
+    <string name="weather_light_rain">Mưa nhỏ</string>
+    <string name="weather_rain">Mưa</string>
+    <string name="weather_heavy_rain">Mưa to</string>
+    <string name="weather_thunderstorm">Dông</string>
+    <string name="weather_foggy">Sương mù</string>
+    <string name="weather_snow">Tuyết</string>
+    <string name="weather_windy">Có gió</string>
+
+
+    //menu
+    <string name="titleWeather">Thời tiết</string>
+    <string name="titleSearch">Tìm tên thành phố</string>
+
+
+    //error
+    <string name="errorNoInternet">Không có kết nối internet</string>
+    <string name="errorLocationUnavailable">Không thể lấy được vị trí của bạn</string>
+    <string name="errorCityNotFound">Không tìm thấy thành phố</string>
+    <string name="errorSomethingWrong">Có lỗi gì đó đã xảy ra</string>
+
+    //setting
+    <string name="theme_title">Giao diện</string>
+    <string name="settingLanguage">Ngôn ngữ</string>
+    <string name="titleSetting">Cài đặt</string>
+    <string name="temperature_unit_title">Thang đo nhiệt độ</string>
+
+
+    <string name="unit">25</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="theme_light">Chế độ sáng</string>
+    <string name="theme_dark">Chế độ tối</string>
+
+
+    //des
+    <string name="des_time">Thứ hai,tháng tư 17 | 10:00AM</string>
+    <string name="des_iv">des img</string>
+    //notify
+
+</resources>

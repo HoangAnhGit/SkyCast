@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.skycast"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.skycast"
@@ -14,6 +14,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures{
+        viewBinding = true
+        dataBinding = true
     }
 
     buildTypes {
@@ -40,4 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
 }

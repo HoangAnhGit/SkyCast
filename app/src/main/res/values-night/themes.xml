@@ -1,7 +1,69 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.SkyCast" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/gradient_bg_main_dark</item>
+    </style>
+
+    <item name="text_Primary" type="color">@color/white</item>
+
+    <style name="TextAppearance.App.body2.Bold" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/text_heading_5</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading5.Bold" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/text_heading_5</item>
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/text_heading_4</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">@dimen/text_heading_3</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/text_heading_2</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/text_heading_1</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/text_Primary</item>
+    </style>
+
+    <style name="TextAppearance.App.heading1.Bold" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/text_heading_1</item>
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/text_Primary</item>
     </style>
 </resources>

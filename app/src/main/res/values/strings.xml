@@ -1,3 +1,64 @@
 <resources>
+
+    //main
     <string name="app_name">SkyCast</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Add">ADD</string>
+    <string name="MyLocation">MyLocation</string>
+    <string name="Rain">Rain</string>
+    <string name="WindSpeed">Wind Speed</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Sunrise">Sunrise</string>
+    <string name="Sunset">Sunset</string>
+    <string name="forecast_10_days">10-day forecast</string>
+    <string name="forecast_rain_alert">Rain is expected around %1$s</string>
+
+    //status weather
+    <string name="weather_clear">Clear</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_partly_cloudy">Partly Cloudy</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_overcast">Overcast</string>
+    <string name="weather_light_rain">Light Rain</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_heavy_rain">Heavy Rain</string>
+    <string name="weather_thunderstorm">Thunderstorm</string>
+    <string name="weather_foggy">Foggy</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_windy">Windy</string>
+    <string name="Today">Today</string>
+    <string name="Now">Now</string>
+
+    //menu
+    <string name="titleWeather">Weather</string>
+    <string name="titleSearch">Search for a city</string>
+
+    //error
+    <string name="errorNoInternet">No internet connection</string>
+    <string name="errorLocationUnavailable">Unable to get location</string>
+    <string name="errorCityNotFound">City not found</string>
+    <string name="errorSomethingWrong">Something went wrong</string>
+
+
+    //setting
+    <string name="theme_title">Theme</string>
+    <string name="settingLanguage">Language</string>
+    <string name="titleSetting">Setting</string>
+    <string name="temperature_unit_title">Temperature Unit</string>
+
+
+    <string name="unit">25</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+
+
+    //des
+    <string name="des_time">Monday June 17 | 10:00AM</string>
+    <string name="des_iv">des img</string>
+    //notify
+
 </resources>
