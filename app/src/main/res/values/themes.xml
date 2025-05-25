@@ -10,6 +10,8 @@
         <item name="icon_List">@drawable/list_dark</item>
         <item name="icon_Back">@drawable/back_dark</item>
         <item name="icon_Change_Setting">@drawable/angle_circle_right_dark</item>
+        <item name="icon_Search">@drawable/search_light</item>
+        <item name="color_hint">@color/white</item>
 
     </style>
 

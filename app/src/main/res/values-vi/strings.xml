@@ -61,6 +61,8 @@
     //des
     <string name="des_time">Thứ hai,tháng tư 17 | 10:00AM</string>
     <string name="des_iv">des img</string>
+    <string name="delete">Xóa</string>
+    <string name="city">TP. Hà Nội </string>
     //notify
 
 </resources>

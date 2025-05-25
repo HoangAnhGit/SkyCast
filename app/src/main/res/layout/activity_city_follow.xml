@@ -7,4 +7,55 @@
     android:layout_height="match_parent"
     tools:context=".UI.CityFollow">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/des_iv"
+        android:src="?attr/icon_Setting"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/iv_setting"/>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.App.heading5.Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/titleWeather"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_setting" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/edt_search"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/radius_16dp"
+        android:backgroundTint="?attr/bg_View"
+        android:layout_marginHorizontal="16dp"
+        android:drawableStart="?attr/icon_Search"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="12dp"
+        android:hint="@string/titleSearch"
+        android:gravity="center"
+        android:textColorHint="?attr/color_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_search" />
 </androidx.constraintlayout.widget.ConstraintLayout>

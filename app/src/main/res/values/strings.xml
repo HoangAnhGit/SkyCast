@@ -59,8 +59,8 @@
     //des
     <string name="des_time">Monday June 17 | 10:00AM</string>
     <string name="des_iv">des img</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    //notify
+    <string name="delete">Delete</string>
+    <string name="city">TP. Ha Noi </string>
+      //notify
 
 </resources>
